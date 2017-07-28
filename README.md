@@ -12,16 +12,18 @@
 
 ### Общие оптимизации:
 
-1. Использовать кеш браузера. Необходимо указать дату и срок действия для статических файлов. В данном случае ресурсы будут загружаться из кеша браузера, а не из интернета. [Google PageSpeed Insights Screenshot](/screenshots/cache.png?raw=true) 
+1. Использовать кеш браузера. Необходимо указать дату и срок действия для статических файлов. В данном случае ресурсы будут загружаться из кеша браузера, а не из интернета. [Google page speed insights screenshot](/screenshots/cache.png?raw=true) 
 
-2. Включить сжатие. Для ресурсов с расширением .svg не включено сжатие данных. [Google PageSpeed Insights Screenshot](/screenshots/gzip.png?raw=true)
+2. Включить сжатие. Для ресурсов с расширением .svg не включено сжатие данных. [Google page speed insights screenshot](/screenshots/gzip.png?raw=true)
 
-3. Минификация всех js файлов. [Google PageSpeed Insights Screenshot](/screenshots/jsmin.png?raw=true)
+3. Минификация всех js файлов. [Google page speed insights screenshot](/screenshots/jsmin.png?raw=true)
 
-4. Оптимизация изображений. [Google PageSpeed Insights Screenshot](/screenshots/imgmin.png?raw=true)
+4. Оптимизация изображений. [Google page speed insights screenshot](/screenshots/imgmin.png?raw=true)
 
 5. Данный ресурс использует большое количество внешних файлов которые блокируют отображение контента. Необходимо загружать их в конце документа. Для js файлов необходимо добавить атрибуты async или defer для асинхронной загрузки.
 
-6. Использование субдоменов для ускорения загрузки статических файлов.
+6. Использование субдоменов для ускорения загрузки статических файлов. [Dev tools audits screenshot](/screenshots/host.png?raw=true)
 
-7. Конкатенация css файлов. Данный ресурс использует 16 внешних ccs файлов. Для увеличения скорости загрузки необходимо сократить это число. [Dev tools audits Screenshot](/screenshots/cssconcat.png?raw=true)
+7. Конкатенация css файлов. Данный ресурс использует 16 внешних ccs файлов. Для увеличения скорости загрузки необходимо сократить это число. [Dev tools audits screenshot](/screenshots/cssconcat.png?raw=true)
+
+8. Конкатенация js файлов. [Dev tools audits screenshot](/screenshots/jsconcat.png?raw=true)
