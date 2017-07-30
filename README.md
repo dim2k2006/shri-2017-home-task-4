@@ -26,7 +26,7 @@
 
 7. Конкатенация css файлов. Данный ресурс использует 16 внешних css файлов. Для увеличения скорости загрузки необходимо сократить это число ([Dev tools audits screenshot](/screenshots/cssconcat.png?raw=true)).
 
-8. Конкатенация js файлов. [Dev tools audits screenshot](/screenshots/jsconcat.png?raw=true)
+8. Конкатенация js файлов ([Dev tools audits screenshot](/screenshots/jsconcat.png?raw=true)).
 
 9. Загружать статические файлы с доменов у которых отключены cookie. [Dev tools audits screenshot](/screenshots/cookie.png?raw=true)
 
