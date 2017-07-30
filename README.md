@@ -34,9 +34,9 @@
 
 11. На сайте присутствуют большие списки с контентом ([Скриншот: google chrome browser](/screenshots/content.png?raw=true)). При ховере на элемент такого спииска, к нему применяются дополнительные css свойства. Существует следующая проблема: при скролле страницы с таким контентом, постоянно срабатывает ховер у элементов над которыми расположен курсор. Данный эффект значительно снижает производительность страница и приводит к резкому снижению количества кадров в секунду (fps). В качестве решения данной проблемы можно использовать прием согласно которому при появлении события scroll, необходимо к контейнеру добавить css свойство pointer-events в значении none. По окончании скрола необходмо удалить данное css свойство ([Статья: 60fps scrolling using pointer-events: none](https://www.thecssninja.com/css/pointer-events-60fps)).
 
-12. При отключенном js, главная навигационная панель - невидимая ([Google chrome browser js disable screenshot](/screenshots/navigationjsdisable.png?raw=true), [Google chrome browser js enable screenshot](/screenshots/navigationjsenable.png?raw=true)). 
+12. При отключенном js, главная навигационная панель - невидимая ([Скриншот: google chrome browser js disable](/screenshots/navigationjsdisable.png?raw=true), [Скриншот: google chrome browser js enable](/screenshots/navigationjsenable.png?raw=true)). 
 
-13. При анализировании перерисовок главной страницы было выявлено, что при скроле происходит постоянная перерисовка иконки уведомлений ([Google chrome browser screenshot](/screenshots/repaint.png?raw=true)). Для решения данной проблемы можно применить «нулевой хак» ([Repaint problem video](https://drive.google.com/open?id=0B4DR2fff2kdWYlQ4RFd6T3dRQ2s), [Repaint fix video](https://drive.google.com/open?id=0B4DR2fff2kdWYnBZU0k5YmVaeE0)). 
+13. При анализировании перерисовок главной страницы было выявлено, что при скроле происходит постоянная перерисовка иконки уведомлений ([Скриншот: google chrome browser](/screenshots/repaint.png?raw=true)). Для решения данной проблемы можно применить «нулевой хак» ([Видео: repaint problem](https://drive.google.com/open?id=0B4DR2fff2kdWYlQ4RFd6T3dRQ2s), [Видео: repaint fix](https://drive.google.com/open?id=0B4DR2fff2kdWYnBZU0k5YmVaeE0)). 
 
 ### Оптимизации для мобильных устройств:
 
