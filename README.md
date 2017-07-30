@@ -14,7 +14,7 @@
 
 1. Использовать кеш браузера. Необходимо указать дату и срок действия для статических файлов. В данном случае ресурсы будут загружаться из кеша браузера, а не из интернета ([Google page speed insights screenshot](/screenshots/cache.png?raw=true)). 
 
-2. Включить сжатие. Для ресурсов с расширением .svg не включено сжатие данных ([Google page speed insights screenshot](/screenshots/gzip.png?raw=true)).
+2. Включить сжатие. Для ресурсов с расширением .svg не включено сжатие данных ([Скриншот: google page speed insights](/screenshots/gzip.png?raw=true)).
 
 3. Минификация всех js файлов ([Google page speed insights screenshot](/screenshots/jsmin.png?raw=true)).
 
