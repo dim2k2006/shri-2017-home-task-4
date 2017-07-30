@@ -37,3 +37,7 @@
 12. При отключенном js, главная навигационная панель - невидимая. [Google chrome browser js disable screenshot](/screenshots/navigationjsdisable.png?raw=true) [Google chrome browser js enable screenshot](/screenshots/navigationjsenable.png?raw=true). 
 
 13. При анализировании перерсовок главной страницы было выявлено, что при скроле происходит постоянная перерисовка иконки уведомлений. [Google chrome browser screenshot](/screenshots/repaint.png?raw=true) Для решения данной проблемы можно применить «нулевой хак». [Repaint problem video](https://drive.google.com/open?id=0B4DR2fff2kdWYlQ4RFd6T3dRQ2s), [Repaint fix video](https://drive.google.com/open?id=0B4DR2fff2kdWYnBZU0k5YmVaeE0) 
+
+### Оптимизации для мобильных устройств:
+
+1. Оптимизация загрузки видимого контента. [Google page speed insights screenshot](/screenshots/visiblecontent.png?raw=true) Для того, чтобы страница загружалась быстрее необходимо сократить размер данных необходимых для показа основого контента страницы. [Google page speed insights recommendations](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)  Сюда же можно отнести прием инлайна css стилей и создания так называемого «Critical CSS» [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/).
