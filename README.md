@@ -36,4 +36,4 @@
 
 12. При отключенном js, главная навигационная панель - невидимая. [Google chrome browser js disable screenshot](/screenshots/navigationjsdisable.png?raw=true) [Google chrome browser js enable screenshot](/screenshots/navigationjsenable.png?raw=true). 
 
-13. При анализировании перерсовок главной страницы было выявлено, что при скроле происходит постоянная перерисовка иконки уведомлений [Google chrome browser screenshot](/screenshots/repaint.png?raw=true). Для решения данной проблемы можно пременить «нулевой хак». [Repaint problem video](/video/repaint.mov?raw=true), [Repaint fix video](/video/repaint-fix.mov?raw=true) 
+13. При анализировании перерсовок главной страницы было выявлено, что при скроле происходит постоянная перерисовка иконки уведомлений [Google chrome browser screenshot](/screenshots/repaint.png?raw=true). Для решения данной проблемы можно пременить «нулевой хак». [Repaint problem video](https://drive.google.com/open?id=0B4DR2fff2kdWYlQ4RFd6T3dRQ2s), [Repaint fix video](https://drive.google.com/open?id=0B4DR2fff2kdWYnBZU0k5YmVaeE0) 
