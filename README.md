@@ -46,4 +46,4 @@
 
 3. Настроить порядок загрузки скриптов. [Браузеры с поддержкой defer screenshot](/screenshots/withdefer.png?raw=true), [iOS](/screenshots/ios.png?raw=true), [Браузеры без поддержки defer](/screenshots/withoutdefer.png?raw=true)
 
-4. На сайте используются иконочные шрифты. На медленном интернете пока не загрузится иконочный шрифт - пользователь не увидит ни одной иконки. [Google chrome browser screenshot](/screenshots/icon.png?raw=true) 
+4. На сайте используются иконочные шрифты. На медленном интернете пока не загрузится иконочный шрифт - пользователь не увидит ни одной иконки. [Google chrome browser screenshot](/screenshots/icon.png?raw=true) Для таких целей вместо иконочных шрифтов лучше использовать векторную графику.
