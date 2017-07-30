@@ -40,7 +40,7 @@
 
 ### Оптимизации для мобильных устройств:
 
-1. Оптимизация загрузки видимого контента ([Google page speed insights screenshot](/screenshots/visiblecontent.png?raw=true)). Для того, чтобы страница загружалась быстрее необходимо сократить размер данных необходимых для показа основого контента страницы. [Google page speed insights recommendations](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)  Сюда же можно отнести прием инлайна css стилей и создания так называемого «Critical CSS» [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/).
+1. Оптимизация загрузки видимого контента ([Google page speed insights screenshot](/screenshots/visiblecontent.png?raw=true)). Для того, чтобы страница загружалась быстрее необходимо сократить размер данных необходимых для показа основого контента страницы ([Google page speed insights recommendations](https://developers.google.com/speed/docs/insights/PrioritizeVisibleContent)). Сюда же можно отнести прием инлайна css стилей и создания так называемого «Critical CSS» [Understanding Critical CSS](https://www.smashingmagazine.com/2015/08/understanding-critical-css/).
 
 2. Шрифты. На сайте используется google шрифт - Roboto, который подключен через тэг link. В качестве оптимизации можно предложить использование метода FontFaceOnload. При данном подходе для первого захода на ресурс - показываем стандартный шрифт. После загрузки шрифта в cookie делается метка. При последующих посещениях с нужной нам cookie - в разметку добавляется класс отвечающий за использование каcтомных шрифтов.
 
