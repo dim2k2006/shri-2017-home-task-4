@@ -24,7 +24,7 @@
 
 6. Использование субдоменов для ускорения загрузки статических файлов ([Dev tools audits screenshot](/screenshots/host.png?raw=true)).
 
-7. Конкатенация css файлов. Данный ресурс использует 16 внешних ccs файлов. Для увеличения скорости загрузки необходимо сократить это число. [Dev tools audits screenshot](/screenshots/cssconcat.png?raw=true)
+7. Конкатенация css файлов. Данный ресурс использует 16 внешних css файлов. Для увеличения скорости загрузки необходимо сократить это число ([Dev tools audits screenshot](/screenshots/cssconcat.png?raw=true)).
 
 8. Конкатенация js файлов. [Dev tools audits screenshot](/screenshots/jsconcat.png?raw=true)
 
