@@ -18,7 +18,7 @@
 
 3. Минификация всех js файлов ([Скриншот: google page speed insights](/screenshots/jsmin.png?raw=true)).
 
-4. Оптимизация изображений ([Google page speed insights screenshot](/screenshots/imgmin.png?raw=true)).
+4. Оптимизация изображений ([Скриншот: google page speed insights](/screenshots/imgmin.png?raw=true)).
 
 5. Данный ресурс использует большое количество внешних файлов которые блокируют отображение контента. Необходимо загружать их в конце документа. Для js файлов необходимо добавить атрибуты async или defer для асинхронной загрузки.
 
