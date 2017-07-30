@@ -16,7 +16,7 @@
 
 2. Включить сжатие. Для ресурсов с расширением .svg не включено сжатие данных ([Google page speed insights screenshot](/screenshots/gzip.png?raw=true)).
 
-3. Минификация всех js файлов. [Google page speed insights screenshot](/screenshots/jsmin.png?raw=true)
+3. Минификация всех js файлов ([Google page speed insights screenshot](/screenshots/jsmin.png?raw=true)).
 
 4. Оптимизация изображений. [Google page speed insights screenshot](/screenshots/imgmin.png?raw=true)
 
